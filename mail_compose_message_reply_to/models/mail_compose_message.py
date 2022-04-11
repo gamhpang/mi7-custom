@@ -8,7 +8,6 @@ from odoo import api, models
 class MailComposeMessageReplyTo(models.TransientModel):
     _inherit = "mail.compose.message"
 
-    @api.multi
     def get_mail_values(self, res_ids):
         self.ensure_one()
         results = super(MailComposeMessageReplyTo, self).get_mail_values(res_ids)
