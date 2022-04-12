@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # Copyright 2021 Quartile Limited
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
-
 {
     "name": "Stock Carrier Info",
     "version": "15.0.1.0.0",
